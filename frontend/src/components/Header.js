@@ -38,7 +38,7 @@ const Header = () => {
         <div className='flex items-center gap-4 md:gap-7'>
             <nav className=' gap-4 md:gap-6 text-base md:text-lg hidden md:flex'>
                 <Link to={""}>Home</Link>
-                <Link to={"menu/6513fe316fd5824db9aee44d"}>Recommendation</Link>
+                <Link to={"menu/6513fe316fd5824db9aee44d"}>Recommend</Link>
                 <Link to={"about"}>About</Link>
                 <Link to={"contact"}>Contact</Link>
                 {(userData.email === process.env.REACT_APP_ADMIN_EMAIL || userData.email === process.env.REACT_APP_ADMIN_EMAIL1 || userData.email === process.env.REACT_APP_ADMIN_EMAIL2) ? (
